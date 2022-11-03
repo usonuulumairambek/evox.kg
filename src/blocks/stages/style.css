@@ -1,0 +1,11 @@
+.stages__items {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px;
+}
+
+.stages__item {
+    max-width: 300px;
+}

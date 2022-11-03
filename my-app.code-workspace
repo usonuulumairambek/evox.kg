@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../kaska.kg"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,15 @@
+.questions {
+    background-color: #eeeeee;
+}
+
+.questions__container {
+    padding: 20px;
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.questions__container-block-active{
+    color:  red;
+}
+
+

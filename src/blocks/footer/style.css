@@ -1,0 +1,48 @@
+.footer {
+    background-color: rgb(255, 255, 255);
+}
+
+.footer__contacts {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 20px 0;
+}
+
+.footer__social a {
+    margin: 5px;
+}
+
+.footer__contacts a {
+    color: #444;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer__contaner-bottom {
+    background-color: #444;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+}
+
+.footer__contaner-bottom p {
+    font-size: 0.8rem;
+font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 410px) {
+    .tittle2 {
+        font-size: 30px !important;
+    }
+}
