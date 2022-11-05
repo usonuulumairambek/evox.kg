@@ -11,14 +11,19 @@ export default function Main() {
   return (
     <div className="main">
       <Header />
-      <div  data-aos="fade-up" className="main__content">
+      <div data-aos="fade-up" className="main__content">
         <h1 data-aos="fade-up" className="about_text">
           Общественная сеть <br /> электрозарядных станций
         </h1>
         <p>Мы занимаемся развитием инфраструктуры ЭЗС в Кыргызстане</p>
         <div className="main__content-buttons btn-10">
-          <button className="btn_price">Рассчитать стоимость</button>
-          <button className="btn_service">Услуги</button>
+          <a href="#calculation">
+            {" "}
+            <button className="btn_price">Рассчитать стоимость</button>
+          </a>
+          <a href="#uslugi">
+            <button className="btn_service">Услуги</button>
+          </a>
         </div>
       </div>
       <div className="main__bg"></div>
