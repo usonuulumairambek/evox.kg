@@ -1,6 +1,31 @@
 import React from "react";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 import "./style.css";
 export default function Calculation() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ytuwlwr",
+        "template_y3obgsr",
+        form.current,
+        "3uzqwllFkNXwO3oZ-"
+      )
+      .then(
+        () => {
+          alert("ваши данные успешно отправлены!");       
+         },
+        (error) => {
+          alert(error.text);
+        }
+      );
+      e.target.reset()
+  };
   return (
     <div className="calculation">
       <div className="calculation-bg"></div>
@@ -15,12 +40,17 @@ export default function Calculation() {
             Мы составим расчет в течение 24 часов.
           </span>
         </div>
-        <div className="input__section">
-          <input className="input__section-name" placeholder="Имя" />
-          <input className="input__section-number" placeholder="Телефон" />
+        <form className="input__section" ref={form} onSubmit={sendEmail}>
+          <input className="input__section-name" placeholder="Имя" name="user_name" required />
+          <input
+            className="input__section-number"
+            placeholder="Телефон"
+            name="user_tele"
+            required
+          />
           <button className="input__section-button">Отправить заявку</button>
-        </div>
+        </form>
       </div>
-    </div>  
+    </div>
   );
 }
