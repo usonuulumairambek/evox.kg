@@ -1,10 +1,14 @@
 import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-
+import 'react-toastify/dist/ReactToastify.css';
 import "./style.css";
+import { toast, ToastContainer } from "react-toastify";
+
 export default function Calculation() {
   const form = useRef();
+  const notify = () => toast("ваши данные успешно отправлены!");
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,14 +20,14 @@ export default function Calculation() {
         form.current,
         "3uzqwllFkNXwO3oZ-"
       )
-      .then(
-        () => {
-          alert("ваши данные успешно отправлены!");       
-         },
-        (error) => {
-          alert(error.text);
-        }
-      );
+      // .then(
+      //   () => {
+      //     alert("ваши данные успешно отправлены!");       
+      //    },
+      //   (error) => {
+      //     alert(error.text);
+      //   }
+      // );
       e.target.reset()
   };
   return (
@@ -48,7 +52,8 @@ export default function Calculation() {
             name="user_tele"
             required
           />
-          <button className="input__section-button">Отправить заявку</button>
+          <button className="input__section-button" onClick={notify}>Отправить заявку</button>
+        <ToastContainer />
         </form>
       </div>
     </div>
