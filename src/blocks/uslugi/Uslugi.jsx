@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import img12 from "./img/12.jpg";
-import img13 from "./img/13.jpg";
-import img14 from "./img/14.jpg";
+import img12 from "./../images/img15.jpg";
+import img13 from "./../images/img12.jpg";
+import img14 from "./../images/img14.jpg";
 import aos from "aos";
 import "aos/dist/aos.css";
 import "./style.css";
@@ -25,7 +25,9 @@ export default function Uslugi() {
               же день мы обговариваем сроки выполнения работ.
             </p>
             <div className="service_button_wrap">
-              <button>Рассчитать стоимость</button>
+              <a href="#calculation">
+                <button>Рассчитать стоимость</button>
+              </a>
             </div>
           </div>
           <div data-aos="fade-up" className="uslugi__item ">
@@ -37,7 +39,9 @@ export default function Uslugi() {
               Расчет всех работ мы произведем в день замеров.
             </p>
             <div className="service_button_wrap">
-              <button>Рассчитать стоимость</button>
+              <a href="#calculation">
+                <button>Рассчитать стоимость</button>
+              </a>
             </div>
           </div>
           <div data-aos="fade-up" className="uslugi__item">
@@ -49,7 +53,9 @@ export default function Uslugi() {
               замеры помещения, расчет и полный перечень ремонтных работ.
             </p>
             <div className="service_button_wrap">
-              <button>Рассчитать стоимость</button>
+              <a href="#calculation">
+                <button>Рассчитать стоимость</button>
+              </a>
             </div>
           </div>
         </div>

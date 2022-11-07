@@ -1,7 +1,9 @@
 /* .uslugi {
     padding-top: 100px;
 } */
-
+.service_button_wrap a{
+    transition: all 1s;
+}
 .tittle {
     text-align: center;
     font-family: 'TildaSans', Arial, sans-serif;

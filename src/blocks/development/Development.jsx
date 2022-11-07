@@ -4,7 +4,7 @@ import simg from "./img/сertification.png";
 import "./style.css";
 export default function Development() {
   return (
-    <div className="development" id="development" >
+    <div className="development" id="development">
       <h2 className="tittle">Устойчивое Развитие</h2>
       <p className="subtittle">
         Мы работаем в соответствии со стандартами устойчивого развития ООН
@@ -56,7 +56,6 @@ export default function Development() {
                 построению добросовестных и взаимовыгодных отношений с ними на
                 основании требований деловой этики;{" "}
               </li>
-              <li> вклад в развитие районов присутствия объектов Компании;</li>
               <li>
                 публичная открытость и прозрачность, развитие нефинансовой
                 отчетности.

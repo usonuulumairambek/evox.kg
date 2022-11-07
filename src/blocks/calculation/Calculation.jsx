@@ -1,28 +1,30 @@
 import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-
+import "react-toastify/dist/ReactToastify.css";
 import "./style.css";
+import { toast, ToastContainer } from "react-toastify";
+
 export default function Calculation() {
   const form = useRef();
+  const notify = () => toast("Ваши данные успешно отправлены!");
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_ytuwlwr",
-        "template_y3obgsr",
-        form.current,
-        "3uzqwllFkNXwO3oZ-"
-      )
-      .then(
-        () => {
-          alert("ваши данные успешно отправлены!");       
-         },
-        (error) => {
-          alert(error.text);
-        }
-      );
-      e.target.reset()
+    emailjs.sendForm(
+      "service_ytuwlwr",
+      "template_y3obgsr",
+      form.current,
+      "3uzqwllFkNXwO3oZ-"
+    );
+    // .then(
+    //   () => {
+    //     alert("ваши данные успешно отправлены!");
+    //    },
+    //   (error) => {
+    //     alert(error.text);
+    //   }
+    // );
+    e.target.reset();
   };
   return (
     <div className="calculation" id="calculation">
@@ -39,15 +41,22 @@ export default function Calculation() {
           </span>
         </div>
         <form className="input__section" ref={form} onSubmit={sendEmail}>
-
-          <input className="input__section-name" placeholder="Имя" name="user_name" required />
+          <input
+            className="input__section-name"
+            placeholder="Имя"
+            name="user_name"
+            required
+          />
           <input
             className="input__section-number"
             placeholder="Телефон"
             name="user_tele"
             required
           />
-          <button className="input__section-button">Отправить заявку</button>
+          <button className="input__section-button" onClick={notify}>
+            Отправить заявку
+          </button>
+          <ToastContainer style={{ marginTop: 50 }} />
         </form>
       </div>
     </div>
