@@ -9,20 +9,20 @@ export default function Calculation() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_bomoy2c",
-        "template_rotvrcm",
+        "service_ytuwlwr",
+        "template_y3obgsr",
         form.current,
-        "E4TMsHujNX-Jn_6FU"
+        "3uzqwllFkNXwO3oZ-"
       )
       .then(
-        (result) => {
-          console.log(result.text);
-        },
+        () => {
+          alert("ваши данные успешно отправлены!");       
+         },
         (error) => {
-          console.log(error.text);
+          alert(error.text);
         }
       );
-    e.target.reset();
+      e.target.reset()
   };
   return (
     <div className="calculation" id="calculation">
@@ -39,16 +39,12 @@ export default function Calculation() {
           </span>
         </div>
         <form className="input__section" ref={form} onSubmit={sendEmail}>
-          <input
-            className="input__section-name"
-            placeholder="Имя"
-            name="user_name"
-            required
-          />
+
+          <input className="input__section-name" placeholder="Имя" name="user_name" required />
           <input
             className="input__section-number"
             placeholder="Телефон"
-            name="user_tel"
+            name="user_tele"
             required
           />
           <button className="input__section-button">Отправить заявку</button>
