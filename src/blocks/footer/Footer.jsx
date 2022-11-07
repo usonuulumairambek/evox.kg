@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer__contaner-bottom">
-        <p>© "EVOX" - оператор электрозарядных станций 2022год </p>
+        <p>© "EVOX" - оператор электрозарядных станций</p>
       </div>
     </div>
   );

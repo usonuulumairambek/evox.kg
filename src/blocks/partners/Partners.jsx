@@ -54,7 +54,7 @@ export default function Partners() {
               </a>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper_partners">
+          {/* <SwiperSlide className="swiper_partners">
             <div className="swiper_partners">
               <a
                 target="_blank"
@@ -64,13 +64,13 @@ export default function Partners() {
                 <img src={partner3} alt="Маркировка в бишкеке" />
               </a>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide className="swiper_partners">
             <div className="swiper_partners">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.rightscan.ru/download-center/solutions/rs-mobile-acs/"
+                href="GPM"
               >
                 <img src={partner4} alt="Маркировка в бишкеке" />
               </a>
@@ -92,13 +92,13 @@ export default function Partners() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="http://lora.kg/"
+                href="sitroniks"
               >
                 <img src={partner6} alt="Маркировка в бишкеке" />
               </a>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper_partners">
+          {/* <SwiperSlide className="swiper_partners">
             <div className="swiper_partners">
               <a
                 target="_blank"
@@ -108,7 +108,7 @@ export default function Partners() {
                 <img src={partner7} alt="Маркировка в бишкеке" />
               </a>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </div>
