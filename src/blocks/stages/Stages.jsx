@@ -8,7 +8,7 @@ export default function Stages() {
         <div className="stages__items">
           <div className="stages__item">
             <div className="stages__item-number">
-              {/* <p>1</p> */}
+              <span className="number">1</span>
             </div>
             <div className="stages__item-tittle">
               <h4>Заявка</h4>
@@ -19,7 +19,7 @@ export default function Stages() {
           </div>{" "}
           <div className="stages__item">
             <div className="stages__item-number">
-              {/* <p>2</p> */}
+              <span className="number">2</span>
             </div>
             <div className="stages__item-tittle">
               <h4>Расчет стоимости</h4>
@@ -33,7 +33,7 @@ export default function Stages() {
           </div>{" "}
           <div className="stages__item">
             <div className="stages__item-number">
-              {/* <p>3</p> */}
+              <span className="number">3</span>
             </div>
             <div className="stages__item-tittle">
               <h4>Установка</h4>
@@ -44,7 +44,7 @@ export default function Stages() {
           </div>{" "}
           <div className="stages__item">
             <div className="stages__item-number">
-              {/* <p>4</p> */}
+              <span className="number">4</span>
             </div>
             <div className="stages__item-tittle">
               <h4>Прием работы</h4>

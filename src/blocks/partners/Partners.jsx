@@ -9,7 +9,7 @@ import partner3 from "./partners/3.jpg";
 import partner4 from "./partners/4.png";
 import partner5 from "./partners/5.png";
 import partner6 from "./partners/6.png";
-import partner7 from "./partners/7.jpg";
+import partner7 from "./../images/partnero.jpg";
 export default function Partners() {
   SwiperCore.use([Autoplay]);
 
@@ -54,7 +54,7 @@ export default function Partners() {
               </a>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper_partners">
+          {/* <SwiperSlide className="swiper_partners">
             <div className="swiper_partners">
               <a
                 target="_blank"
@@ -64,14 +64,10 @@ export default function Partners() {
                 <img src={partner3} alt="Маркировка в бишкеке" />
               </a>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide className="swiper_partners">
             <div className="swiper_partners">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.rightscan.ru/download-center/solutions/rs-mobile-acs/"
-              >
+              <a target="_blank" rel="noopener noreferrer" href="GPM">
                 <img src={partner4} alt="Маркировка в бишкеке" />
               </a>
             </div>
@@ -89,11 +85,7 @@ export default function Partners() {
           </SwiperSlide>
           <SwiperSlide className="swiper_partners">
             <div className="swiper_partners">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="http://lora.kg/"
-              >
+              <a target="_blank" rel="noopener noreferrer" href="sitroniks">
                 <img src={partner6} alt="Маркировка в бишкеке" />
               </a>
             </div>
@@ -103,7 +95,7 @@ export default function Partners() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://eurasiabusiness.ru/"
+                href="https://www.o.kg/"
               >
                 <img src={partner7} alt="Маркировка в бишкеке" />
               </a>

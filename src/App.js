@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import Calculation from "./blocks/calculation/Calculation";
 import Development from "./blocks/development/Development";
 import Footer from "./blocks/footer/Footer";

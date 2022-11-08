@@ -1,19 +1,23 @@
 /* .uslugi {
     padding-top: 100px;
 } */
-
+.service_button_wrap a{
+    transition: all 1s;
+}
 .tittle {
     text-align: center;
     font-family: 'TildaSans', Arial, sans-serif;
     font-weight: 600;
     color: #000000;
+    margin: 10px 0 10px 0;
 }
 
-.subtittle{
+.subtittle {
     text-align: center;
     font-family: 'TildaSans', Arial, sans-serif;
     font-weight: 300;
     color: #000000;
+    margin: 0;
 }
 
 .uslugi__item {
@@ -61,4 +65,14 @@
     padding-left: 30px;
     padding-right: 30px;
     border: none;
+}
+
+@media(max-width: 560px) {
+    .tittle {
+        text-align: center;
+        font-family: 'TildaSans', Arial, sans-serif;
+        font-weight: 600;
+        color: #000000;
+        font-size: 2px;
+    }
 }

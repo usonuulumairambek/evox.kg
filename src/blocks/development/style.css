@@ -1,13 +1,17 @@
 .development__container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 5% 0 5%;
+    padding: 10px 5% 0 5%;
 }
 
 
 .development__container-img {
     width: 400px;
     float: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 .development__container-img p {
@@ -36,6 +40,8 @@
 }
 
 .сertification {
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -53,4 +59,13 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+
+.development__container-img img{
+margin: 0 auto;
+    width: 230px;
+}
+.certification-img img{
+    width: 230px;
 }

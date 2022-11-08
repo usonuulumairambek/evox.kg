@@ -7,29 +7,21 @@ import { toast, ToastContainer } from "react-toastify";
 
 export default function Calculation() {
   const form = useRef();
-  const notify = () => toast("ваши данные успешно отправлены!");
 
+  const notify = () => toast("ваши данные успешно отправлены!");
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm(
       "service_ytuwlwr",
       "template_y3obgsr",
       form.current,
       "3uzqwllFkNXwO3oZ-"
     );
-    // .then(
-    //   () => {
-    //     alert("ваши данные успешно отправлены!");
-    //    },
-    //   (error) => {
-    //     alert(error.text);
-    //   }
-    // );
+
     e.target.reset();
   };
   return (
-    <div className="calculation">
+    <div className="calculation" id="calculation">
       <div className="calculation-bg"></div>
 
       <div className="calculation__wrapper">

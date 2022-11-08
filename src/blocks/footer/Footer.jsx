@@ -17,7 +17,7 @@ export default function Footer() {
           <p>Адрес нашего офиса: Бишкек, ул. Чуйкова 24.</p>
         </div>
         <div className="footer__social">
-          <a href="https://t.me/evoxkg" target={"_blank"}>
+          <a href="https://t.me/evoxkg1" target={"_blank"}>
             <img src={tg} alt="" />
           </a>{" "}
           <a href="https://wa.me/+996504888864" target={"_blank"}>
@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer__contaner-bottom">
-        <p>© "EVOX" - оператор электрозарядных станций 2022год </p>
+        <p>© "EVOX" - оператор электрозарядных станций</p>
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import evoxkg from "./img/evoxkg.jpeg";
 import evoxkg1 from "./img/evoxkg1.jpeg";
-import evoxkg2 from "./img/evoxkg2.jpeg";
-import evoxkg3 from "./img/evoxkg3.jpeg";
+import evoxkg2 from "./../images/img11.jpg";
+import evoxkg3 from "./../images/img13.jpg";
 import evoxkg4 from "./img/evoxkg4.jpeg";
-import evoxkg5 from "./img/evoxkg5.jpg";
-import evoxkg6 from "./img/evoxkg6.png";
-import evoxkg7 from "./img/evoxkg7.jpeg";
+import evoxkg5 from "./../images/img12.jpg";
+// import evoxkg6 from "./img/evoxkg6.png";
+// import evoxkg7 from "./img/evoxkg7.jpeg";
 
 import aos from "aos";
 import "aos/dist/aos.css";
@@ -41,14 +41,14 @@ export default function Works() {
       alt: "",
       src: evoxkg5,
     },
-    {
-      alt: "",
-      src: evoxkg6,
-    },
-    {
-      alt: "",
-      src: evoxkg7,
-    },
+    // {
+    //   alt: "",
+    //   src: evoxkg6,
+    // },
+    // {
+    //   alt: "",
+    //   src: evoxkg7,
+    // },
   ];
   return (
     <div className="works" id="works">
