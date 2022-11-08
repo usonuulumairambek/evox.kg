@@ -16,14 +16,6 @@ export default function Calculation() {
       form.current,
       "3uzqwllFkNXwO3oZ-"
     );
-    // .then(
-    //   () => {
-    //     alert("ваши данные успешно отправлены!");
-    //    },
-    //   (error) => {
-    //     alert(error.text);
-    //   }
-    // );
     e.target.reset();
   };
   return (
@@ -53,10 +45,8 @@ export default function Calculation() {
             name="user_tele"
             required
           />
-          <button className="input__section-button" onClick={notify}>
-            Отправить заявку
-          </button>
-          <ToastContainer style={{ marginTop: 50 }} />
+          <button className="input__section-button">Отправить заявку</button>
+          <ToastContainer />
         </form>
       </div>
     </div>
