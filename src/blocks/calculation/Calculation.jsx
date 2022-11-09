@@ -1,23 +1,26 @@
 import React from "react";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import "react-toastify/dist/ReactToastify.css";
 import "./style.css";
 import { toast, ToastContainer } from "react-toastify";
 
 export default function Calculation() {
   const form = useRef();
-  const notify = () => toast("Ваши данные успешно отправлены!");
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs.sendForm(
-      "service_ytuwlwr",
-      "template_y3obgsr",
-      form.current,
-      "3uzqwllFkNXwO3oZ-"
-    );
-    e.target.reset();
-  };
+  console.log(form);
+
+  const notify = () => toast("ваши данные успешно отправлены!");
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   emailjs.sendForm(
+  //     "service_ytuwlwr",
+  //     "template_y3obgsr",
+  //     form.current,
+  //     "3uzqwllFkNXwO3oZ-"
+  //   );
+
+  //   e.target.reset();
+  // };
   return (
     <div className="calculation" id="calculation">
       <div className="calculation-bg"></div>
@@ -32,7 +35,8 @@ export default function Calculation() {
             Мы составим расчет в течение 24 часов.
           </span>
         </div>
-        <form className="input__section" ref={form} onSubmit={sendEmail}>
+        {/* onSubmit={sendEmail} */}
+        <form className="input__section" ref={form}>
           <input
             className="input__section-name"
             placeholder="Имя"
@@ -45,8 +49,10 @@ export default function Calculation() {
             name="user_tele"
             required
           />
-          <button className="input__section-button">Отправить заявку</button>
-          <ToastContainer />
+          <button className="input__section-button" onClick={notify}>
+            Отправить заявку
+          </button>
+          <ToastContainer style={{marginTop: 50}}  />
         </form>
       </div>
     </div>

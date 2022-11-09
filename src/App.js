@@ -25,7 +25,7 @@ function App() {
       <Certification />
       <Calculation />
       <Stages />
-      <Voprosy />
+      {/* <Voprosy /> */}
       <Partners />
       <Footer />
     </div>

@@ -18,6 +18,8 @@ padding-bottom: 50px;
     max-width: 100%;
     display: block;
     cursor: pointer;
+    height: 150px;
+    width: 300px;
 }
 
 @media(max-width:1200px) {
