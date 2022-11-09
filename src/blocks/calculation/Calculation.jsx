@@ -7,8 +7,6 @@ import { toast, ToastContainer } from "react-toastify";
 
 export default function Calculation() {
   const form = useRef();
-  console.log(form);
-
   const notify = () => toast("ваши данные успешно отправлены!");
   // const sendEmail = (e) => {
   //   e.preventDefault();
@@ -52,7 +50,7 @@ export default function Calculation() {
           <button className="input__section-button" onClick={notify}>
             Отправить заявку
           </button>
-          <ToastContainer style={{marginTop: 50}}  />
+            <ToastContainer style={{ marginTop: 50 }} />
         </form>
       </div>
     </div>
