@@ -87,7 +87,7 @@ nav li a {
 
 .main {
     background-image: url(./mainbg.jpg);
-    height: 100vh;
+    height: 650px;
 }
 
 .main__content {
@@ -101,7 +101,7 @@ nav li a {
 }
 
 .main__bg {
-    height: 100%;
+    height: 650px;
     width: 100%;
     position: absolute;
     top: 0;

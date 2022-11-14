@@ -13,6 +13,7 @@ import Uslugi from "./blocks/uslugi/Uslugi";
 import Why from "./blocks/why/Why";
 import Works from "./blocks/works/Works";
 import Certification from "./blocks/сertification/Certification";
+import evoxkp from "./fonts/evoxkp.jpg";
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,9 @@ function App() {
       <Why />
       <Set />
       <Development />
+      <div>
+        <img style={{width: "100%"}} src={evoxkp} alt="" />
+      </div>
       <Certification />
       <Calculation />
       <Stages />

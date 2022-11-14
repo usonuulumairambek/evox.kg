@@ -24,14 +24,15 @@
     position: relative;
     z-index: 200;
 }
-
 .calculation__tittle {
+    display: flex;
+    justify-content: center;
+}
+.calculation__tittle span {
     text-align: center;
-    font-size: 50px;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 100px;
-    padding-top: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 .calculation__subtittle {
