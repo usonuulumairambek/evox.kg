@@ -3,13 +3,15 @@ import tg from "./img/tg.svg";
 import wb from "./img/wb.svg";
 import phone from "./img/phone.svg";
 import ins from "./img/ins.svg";
-
+import strelka from "./img/strelka.svg";
 import "./style.css";
 export default function Footer() {
   return (
     <div className="footer" id="footer">
       <div className="footer__contaner">
-        <div className="tittle tittle2">"EVOX" - оператор электрозарядных станций</div>
+        <div className="tittle tittle2">
+          "EVOX" - оператор электрозарядных станций
+        </div>
         <div className="footer__contacts">
           <a href="tel:+996504888864">+996 504 888 864</a> <br />
           <a href="mailto:evoxkg@gmail.com">evoxkg@gmail.com</a>
@@ -33,6 +35,9 @@ export default function Footer() {
       </div>
       <div className="footer__contaner-bottom">
         <p>© "EVOX" - оператор электрозарядных станций</p>
+        <a href="/">
+          <img src={strelka} alt="" className="strelka" />
+        </a>
       </div>
     </div>
   );

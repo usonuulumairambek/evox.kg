@@ -6,7 +6,7 @@ import Footer from "./blocks/footer/Footer";
 import Main from "./blocks/main/Main";
 import Partners from "./blocks/partners/Partners";
 // import Questions from "./blocks/questions/Questions";
-import Voprosy from "./blocks/questions/Voprosy";
+// import Voprosy from "./blocks/questions/Voprosy";
 import Set from "./blocks/set/Set";
 import Stages from "./blocks/stages/Stages";
 import Uslugi from "./blocks/uslugi/Uslugi";

@@ -3,10 +3,21 @@
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-    padding: 0 10px 0 10px;
+    padding: 13px 10px 34px 10px;
+    justify-content: center;
 }
 
 .stages__item {
-    max-width: 250px;
-    margin: 0 10px 0 10px;
+    max-width: 260px;
+    margin: 0 15px 0 15px;
+}
+
+@media (max-width: 600px) {
+    .stages__items{
+        justify-content: start;
+    }
+    .stages__item{
+        max-width: 95%;
+        margin: 15px 0 15px 0;
+    }
 }

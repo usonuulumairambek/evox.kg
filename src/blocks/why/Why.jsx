@@ -47,7 +47,7 @@ export default function Why() {
     <div className="why">
       <div className="why__container">
         <div className="why__container-tittle">
-          <h2 className="tittle">Почему мы вам понравимся?</h2>
+          <h2 className="tittle">Почему мы?</h2>
         </div>
 
         <div className="favorite_wrapp">

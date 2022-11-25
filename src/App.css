@@ -5,6 +5,7 @@
     src: local('roboto'), url('./fonts/Roboto-Black.ttf') format('ttf');
 }
 
-html{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+

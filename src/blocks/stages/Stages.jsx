@@ -4,7 +4,7 @@ export default function Stages() {
   return (
     <div className="stages">
       <div className="stages__container">
-        <h2 className="tittle">Из каких этапов состоит установка?</h2>
+        <h2 className="tittle">Этапы установки</h2>
         <div className="stages__items">
           <div className="stages__item">
             <div className="stages__item-number">

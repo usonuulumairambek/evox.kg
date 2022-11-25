@@ -30,7 +30,7 @@
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 30px;
     flex-wrap: wrap;
     align-items: center;
 
@@ -74,5 +74,8 @@
         font-weight: 600;
         color: #000000;
         font-size: 2px;
+    }
+    .uslugi__items {
+        margin-top: 0;
     }
 }

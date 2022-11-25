@@ -9,7 +9,7 @@ export default function Main() {
     aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="main">
+    <div className="main" id="main">
       <Header />
       <div data-aos="fade-up" className="main__content">
         <h1 data-aos="fade-up" className="about_text">

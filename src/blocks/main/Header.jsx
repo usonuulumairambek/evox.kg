@@ -32,13 +32,13 @@ export default function Header() {
               <a href="#works" >Проекты</a>
             </li>
             <li className="header_li">
-              <a href> Сеть EVOX</a>
+              <a href="#development"> Сеть EVOX</a>
             </li>
             <li className="header_li">
-              <a href>ESG</a>
+              <a href="#development">ESG</a>
             </li>
             <li className="header_li">
-              <a href>Контакты</a>
+              <a href="#footer">Контакты</a>
             </li>
           </nav>
           <div className="header_nav-contact">
