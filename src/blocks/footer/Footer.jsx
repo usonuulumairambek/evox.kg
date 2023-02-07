@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer__contaner-bottom">
-        <p>© "EVOX" - оператор электрозарядных станций</p>
+        <p>© 2023 "EVOX" - оператор электрозарядных станций</p>
         <a href="/">
           <img src={strelka} alt="" className="strelka" />
         </a>

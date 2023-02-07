@@ -1,3 +1,6 @@
+.why{
+    margin-top: 100px;
+}
 .favorite_wrapp {
     max-width: 1200px;
     margin: 0 auto;
@@ -68,7 +71,7 @@ h3 {
     }
 
     .tittle {
-        text-align: left;
+        text-align: center;
         margin-left: 10px;
     }
 }

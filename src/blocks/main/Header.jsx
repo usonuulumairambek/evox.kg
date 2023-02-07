@@ -10,7 +10,7 @@ export default function Header() {
       <header className="header">
         <div className="header__wrapper">
           <div className="logo">
-            <a href="#" className="logo" id="logo" data-dropdown="logoDropDown">
+            <a href="/" className="logo" id="logo" data-dropdown="logoDropDown">
               EVOX
             </a>
           </div>
@@ -32,7 +32,7 @@ export default function Header() {
               <a href="#works" >Проекты</a>
             </li>
             <li className="header_li">
-              <a href="#development"> Сеть EVOX</a>
+              <a href="#set"> Сеть EVOX</a>
             </li>
             <li className="header_li">
               <a href="#development">ESG</a>

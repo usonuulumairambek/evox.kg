@@ -1,7 +1,8 @@
 .works {
     background-color: #f0f0f0;
-}
+    padding-top: 40px;
 
+}
 .img_wrapp {
     max-width: 1200px;
     margin: 0 auto;
@@ -14,5 +15,6 @@
 .img_wrapp img {
     width: 337px;
     height: 220px;
-    margin: 10px;
+    margin: 25px;
+    border-radius: 10px;
 }
